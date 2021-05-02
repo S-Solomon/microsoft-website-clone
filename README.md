@@ -16,3 +16,9 @@ Html entities
 &nbsp; &#8964;
 
 ```
+
+```css
+    nth-child(1) {
+        color: orange;
+    }
+```
