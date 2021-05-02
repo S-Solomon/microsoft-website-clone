@@ -11,7 +11,6 @@
 
 ### What I learned
 
-Html entities
 ```html
 &nbsp; &#8964;
 
