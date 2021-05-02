@@ -1,0 +1,18 @@
+# Microsoft website clone using Html/Css
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+
+
+### What I learned
+
+Html entities
+```html
+&nbsp; &#8964;
+
+```
