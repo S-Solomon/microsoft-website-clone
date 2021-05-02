@@ -116,6 +116,33 @@ input {
     padding-bottom: 2rem;
 }
 
+.hero-controls {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-con-1, .hero-con-2, .hero-con-3, .hero-con-4 {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #000000;
+    cursor: pointer;
+    
+}
+
+.hero-con-1 {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
 .btn-primary{
     background-color: black;
     font-weight: 700;
