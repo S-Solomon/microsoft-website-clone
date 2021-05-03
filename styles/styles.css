@@ -121,7 +121,8 @@ input {
 .hero-content p {
     padding: 1.8rem 0;
 }
-.hero-content h1 {
+
+h1 {
     font-size: 2.5rem;
     color: black;
     font-weight: 200;
@@ -230,7 +231,20 @@ input {
 /* browser section */
 .browser-section {
     height: 60vh;
-    background-color: red;
+    position: relative;
+}
+
+.browser-content {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.browser-content p {
+    padding: 1.5rem 0;
+    color: black;
 }
 
 .browser-image img {
@@ -238,6 +252,8 @@ input {
     height: 100%;
     object-fit: cover;
 }
+
+
 
 /* utilities */
 .u-main-padding {
