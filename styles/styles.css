@@ -20,6 +20,12 @@ p {
     font-size: 1.1rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #000000;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -113,8 +119,14 @@ input {
 }
 
 .hero-content p {
-    padding-bottom: 2rem;
+    padding: 1.8rem 0;
 }
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 200;
+}
+
 
 .hero-controls {
     position: absolute;
@@ -158,6 +170,8 @@ input {
     height: 30vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    width: 70%;
+    margin: 0 auto;
 }
 
 .service {
@@ -181,9 +195,49 @@ input {
     padding-bottom: .3rem;
 }
 
+/* products section */
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product {
+    height: 40vh;
+}
+.product-image {
+    height: 25vh;
+    padding-bottom: 2rem;
+}
+
+.product p {
+    padding: .4rem 0;
+}
+
+.product a {
+    color: #0067b8;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 
 
+/* browser section */
+.browser-section {
+    height: 60vh;
+    background-color: red;
+}
 
+.browser-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* utilities */
 .u-main-padding {
