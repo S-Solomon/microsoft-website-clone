@@ -153,7 +153,33 @@ input {
 }
 
 
+/* services section */
+.services-section {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
 
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+.service a:hover {
+    text-decoration: underline;
+}
+
+.service a img {
+    padding-bottom: .3rem;
+}
 
 
 
