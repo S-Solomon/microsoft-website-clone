@@ -261,7 +261,33 @@ h1 {
 
 /* health section */
 .health-section {
-    padding: 4rem 0;
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    background-color: #F2F2F2;
+
+    min-height: 20vh;
+    text-align: center;
+}
+
+.health-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.health-container a {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.health-container a:hover {
+    text-decoration: underline;
+}
+.health-container p {
+    padding: 1rem 0;
 }
 
 /* footer */
