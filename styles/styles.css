@@ -6,6 +6,7 @@
     text-decoration: none;
     font-size: .9rem;
     font-family: sans-serif;
+
 }
 
 body {
@@ -20,10 +21,12 @@ p {
     font-size: 1.1rem;
 }
 
+
 h3 {
     font-size: 1.5rem;
     font-weight: 200;
     color: #000000;
+    display: inline-block;
 }
 
 .navigation {
@@ -125,7 +128,7 @@ input {
 h1 {
     font-size: 2.5rem;
     color: black;
-    font-weight: 200;
+    font-weight: 600;
 }
 
 
@@ -232,6 +235,7 @@ h1 {
 .browser-section {
     height: 60vh;
     position: relative;
+    margin: 3rem 0;
 }
 
 .browser-content {
@@ -258,4 +262,9 @@ h1 {
 /* utilities */
 .u-main-padding {
     padding: 0 5rem;
+}
+
+.sub-title {
+    padding: 2rem 0;
+    font-weight: 300;
 }
