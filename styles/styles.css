@@ -25,7 +25,7 @@ p {
 
 h3 {
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 600;
     color: #000000;
     display: inline-block;
 }
@@ -257,6 +257,47 @@ h1 {
     height: 100%;
     object-fit: cover;
 }
+
+
+/* health section */
+.health-section {
+    padding: 4rem 0;
+}
+
+/* footer */
+.footer {
+
+    background-color: #F2F2F2;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+
+.footer-content li {
+    padding: .6rem 0;
+}
+.footer-content h5 {
+    padding-bottom: 1rem;
+}
+
+h5 {
+    color: rgb(97, 97, 97);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer-content li:hover {
+    text-decoration: underline;
+}
+
+.footer-nav {
+    padding: 3rem 0;
+}
+
 
 
 
